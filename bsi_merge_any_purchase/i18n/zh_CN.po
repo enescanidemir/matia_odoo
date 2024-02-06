@@ -1,0 +1,97 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bsi_merge_any_purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-26 12:01+0000\n"
+"PO-Revision-Date: 2022-12-26 12:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.actions.act_window,name:bsi_merge_any_purchase.action_bsi_merge_purchase
+msgid " Merge Purchase"
+msgstr "合并购买"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model,name:bsi_merge_any_purchase.model_bsi_merge_purchase
+msgid "Bsi Merge Purchase"
+msgstr "BSI合并采购"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Cancel"
+msgstr "取消"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__create_uid
+msgid "Created by"
+msgstr "由...制作"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__customer
+msgid "Customer"
+msgstr "顾客"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__id
+msgid "ID"
+msgstr "ID"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase____last_update
+msgid "Last Modified on"
+msgstr "最后修改于"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__write_date
+msgid "Last Updated on"
+msgstr "最后更新于"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Merge Purchase"
+msgstr "合并购买"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Merge and New"
+msgstr "合并和新建"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Merge and View"
+msgstr "合并和查看"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__purchase_order_line
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Purchase"
+msgstr "购买"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__purchase_date
+msgid "Purchase Date"
+msgstr "购买日期"

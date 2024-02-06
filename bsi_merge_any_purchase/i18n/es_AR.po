@@ -1,0 +1,97 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bsi_merge_any_purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-26 11:54+0000\n"
+"PO-Revision-Date: 2022-12-26 11:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.actions.act_window,name:bsi_merge_any_purchase.action_bsi_merge_purchase
+msgid " Merge Purchase"
+msgstr "Fusionar compra"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model,name:bsi_merge_any_purchase.model_bsi_merge_purchase
+msgid "Bsi Merge Purchase"
+msgstr "Compra de fusión de Bsi"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__customer
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__id
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Merge Purchase"
+msgstr "Fusionar compra"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Merge and New"
+msgstr "Fusionar y Nuevo"
+
+#. module: bsi_merge_any_purchase
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Merge and View"
+msgstr "Fusionar y ver"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__purchase_order_line
+#: model_terms:ir.ui.view,arch_db:bsi_merge_any_purchase.bsi_merge_purchase_action
+msgid "Purchase"
+msgstr "Compra"
+
+#. module: bsi_merge_any_purchase
+#: model:ir.model.fields,field_description:bsi_merge_any_purchase.field_bsi_merge_purchase__purchase_date
+msgid "Purchase Date"
+msgstr "Fecha de compra"

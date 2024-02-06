@@ -43,7 +43,7 @@ class BsiMergePurchase(models.TransientModel):
                         'product_qty': lines.product_qty, 'price_unit': lines.price_unit})
                 move_line_vals.append(line)
             purchase = {'partner_id': record.customer.id, 'date_planned': record.purchase_date,
-                        'l10n_in_gst_treatment': record.customer.l10n_in_gst_treatment, 'order_line': move_line_vals}
+                        'order_line': move_line_vals}
             purchase_ids = self.env['purchase.order'].create(purchase)
 
     def merge_andnew(self):
@@ -59,7 +59,7 @@ class BsiMergePurchase(models.TransientModel):
                             'product_qty': lines.product_qty, 'price_unit': lines.price_unit})
                     move_line_vals.append(line)
                 purchase = {'partner_id': record.customer.id, 'date_planned': record.purchase_date,
-                            'l10n_in_gst_treatment': record.customer.l10n_in_gst_treatment, 'order_line': move_line_vals}
+                            'order_line': move_line_vals}
                 purchase_ids = self.env['purchase.order'].create(purchase)
 
             else:
@@ -69,7 +69,7 @@ class BsiMergePurchase(models.TransientModel):
                             'product_qty': lines.product_qty, 'price_unit': lines.price_unit})
                     move_line_vals.append(line)
                 purchase = {'partner_id': record.customer.id, 'date_planned': record.purchase_date,
-                            'l10n_in_gst_treatment': record.customer.l10n_in_gst_treatment, 'order_line': move_line_vals}
+                            'order_line': move_line_vals}
                 purchase_ids = self.env['purchase.order'].create(purchase)
 
         return {
@@ -96,7 +96,7 @@ class BsiMergePurchase(models.TransientModel):
                         'product_qty': lines.product_qty, 'price_unit': lines.price_unit})
                 move_line_vals.append(line)
             purchase = {'partner_id': record.customer.id, 'date_planned': record.purchase_date,
-                        'l10n_in_gst_treatment': record.customer.l10n_in_gst_treatment, 'order_line': move_line_vals}
+                        'order_line': move_line_vals}
             purchase_ids = self.env['purchase.order'].create(purchase)
             ir_model_data = self.env['ir.model.data']
             view_id = ir_model_data._xmlid_lookup(
